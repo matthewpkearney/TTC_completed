@@ -3,7 +3,7 @@
 ; Task:   Tiling the Courtyard
 ;  Ask user for input of any natural number (0,1,2,...)
 ;  Build a courtyard (I used 2 nested vectors)
-;  One single tile will always be essential for the inductive proof, so based on n, 
+;  One single tile (placed at 0,0 [check line 98]) will always be essential for the inductive proof, so based on n, 
 ;  we place trominos with our algorithm function so the trominos and the single tile fill the grid perfectly
 
 ;"I pledge my honor that I have abided by the Stevens Honor System."-MK
