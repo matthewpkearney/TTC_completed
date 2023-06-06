@@ -6,6 +6,8 @@
 ;  One single tile (placed at 0,0 [check line 98]) will always be essential for the inductive proof, so based on n, 
 ;  we place trominos with our algorithm function so the trominos and the single tile fill the grid perfectly
 
+; NOTE: The conditional structure of the algorithm would actually allow for the randomization of where you place the single tile. 
+
 ;"I pledge my honor that I have abided by the Stevens Honor System."-MK
 #lang racket
 (define tiles 0) ; fill with this to start
